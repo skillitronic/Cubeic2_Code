@@ -91,14 +91,9 @@ public class AdManager : MonoBehaviour, IUnityAdsListener
 
     public void OnUnityAdsDidError(string message)
     {
-        // Log the error.
     }
 
     public void OnUnityAdsDidStart(string placementId)
     {
-        // Optional actions to take when the end-users triggers an ad.
     }
 }
-//Создать новые айдишники done
-//Сделать проверку каждого айдишника done
-//после проверки вставить функционал 
