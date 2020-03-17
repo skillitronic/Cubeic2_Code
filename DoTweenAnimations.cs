@@ -13,12 +13,12 @@ public class DoTweenAnimations : MonoBehaviour
         if (switched == false)
         {
             shopButton.GetComponent<SVGImage>().sprite = backSprite;
-            camera.transform.DORotate(new Vector3(35, angle, 0), speed);
+            camera.transform.DORotate(new Vector3(27.856f, angle, 0), speed);
         }
         if (switched == true)
         {
             shopButton.GetComponent<SVGImage>().sprite = shopSprite;
-            camera.transform.DORotate(new Vector3(35, -40, 0), speed);
+            camera.transform.DORotate(new Vector3(27.856f, -40.236f, 0), speed);
         }
     }
     public void HoldToFlyPanelLoop()
